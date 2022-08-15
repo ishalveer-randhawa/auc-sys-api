@@ -2,4 +2,8 @@
 
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd"></mule>
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="xyz-abc-sys-apiFlow" doc:id="32d08104-efe7-4867-8a19-b5f887a626cb" >
+		<logger level="INFO" doc:name="Logger" doc:id="7d9f2a57-9783-492f-a266-3b05f231cce8" />
+	</flow>
+</mule>
